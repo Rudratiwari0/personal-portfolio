@@ -1409,3 +1409,165 @@ ul {
 
 /* <==================== Light Mode Styles End ====================> */
 
+
+/* <==================== Global Spacing Fix Start ====================> */
+/* These rules keep text, cards, and buttons from touching each other. */
+
+h1,
+h2,
+h3 {
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 20px;
+    line-height: 1.7;
+}
+
+.btn,
+.btn-disabled {
+    margin-top: 12px;
+}
+
+/* <==================== Card spacing ====================> */
+
+.info-card,
+.service-card,
+.portfolio-card,
+.project-card,
+.skill-card,
+.about-card,
+.contact-form,
+.profile-card {
+    padding: 28px;
+}
+
+.service-card,
+.portfolio-card,
+.project-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.service-card {
+    min-height: 230px;
+}
+
+.portfolio-card,
+.project-card {
+    min-height: 280px;
+}
+
+.service-card h3,
+.portfolio-card h3,
+.project-card h3 {
+    margin-bottom: 16px;
+}
+
+.service-card p,
+.portfolio-card p,
+.project-card p {
+    margin-bottom: 24px;
+}
+
+.service-card .btn,
+.portfolio-card .btn,
+.project-card .btn,
+.portfolio-card .btn-disabled,
+.project-card .btn-disabled {
+    margin-top: auto;
+}
+
+.project-preview {
+    margin-bottom: 20px;
+}
+
+.project-label,
+.project-category {
+    margin-bottom: 10px;
+}
+
+/* <==================== Hero button spacing ====================> */
+
+.hero-buttons,
+.hero-actions,
+.button-group {
+    margin-top: 28px;
+    display: flex;
+    gap: 14px;
+    flex-wrap: wrap;
+}
+
+/* <==================== Contact spacing ====================> */
+
+.contact-form input,
+.contact-form textarea {
+    margin-bottom: 16px;
+}
+
+.contact-actions,
+.form-actions {
+    margin-top: 24px;
+    display: flex;
+    gap: 14px;
+    flex-wrap: wrap;
+}
+
+/* <==================== Footer spacing ====================> */
+
+.footer-container {
+    gap: 0;
+}
+
+.footer-logo {
+    margin-bottom: 12px;
+}
+
+.footer-role {
+    margin-bottom: 18px;
+}
+
+.footer-links {
+    margin-bottom: 18px;
+    display: flex;
+    gap: 18px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer-copy {
+    margin-bottom: 0;
+}
+
+/* <==================== Mobile spacing ====================> */
+
+@media (max-width: 480px) {
+    .btn,
+    .btn-disabled {
+        width: 100%;
+        text-align: center;
+    }
+
+    .hero-buttons,
+    .hero-actions,
+    .button-group,
+    .contact-actions,
+    .form-actions {
+        width: 100%;
+    }
+
+    .service-card,
+    .portfolio-card,
+    .project-card,
+    .skill-card,
+    .about-card,
+    .info-card,
+    .contact-form {
+        padding: 22px;
+    }
+}
+
+/* <==================== Global Spacing Fix End ====================> */
