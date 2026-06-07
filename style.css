@@ -1,0 +1,1411 @@
+
+/* <==================== Basic page setup ====================> */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* <==================== Smooth scroll helps menu links move nicely ====================> */
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* <==================== Main body style ====================> */
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    background: #07111f;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+/* <==================== Keep form items and buttons inside the screen ====================> */
+
+img,
+input,
+textarea,
+button {
+    max-width: 100%;
+}
+
+/* <==================== Basic link style ====================> */
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* <==================== Remove list dots ====================> */
+
+ul {
+    list-style: none;
+}
+
+/* <==================== Shared container for all sections ====================> */
+
+.section-container {
+    width: 90%;
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+
+/* <==================== Header Styles Start ====================> */
+
+.site-header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: #07111f;
+    border-bottom: 1px solid #2b3448;
+}
+
+/* <==================== Navbar layout ====================> */
+
+.navbar {
+    width: 90%;
+    max-width: 1180px;
+    min-height: 72px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+/* <==================== Logo text ====================> */
+
+.logo,
+.footer-logo {
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+/* <==================== Navbar links ====================> */
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+/* <==================== Navbar link text ====================> */
+
+.nav-link {
+    color: #cfd3dc;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+/* <==================== Home link color ====================> */
+
+.nav-home {
+    color: #f3f4f6;
+}
+
+/* <==================== About link hover ====================> */
+
+.nav-about:hover {
+    color: #4fa3ff;
+}
+
+/* <==================== Skills link hover ====================> */
+
+.nav-skills:hover {
+    color: #14b8a6;
+}
+
+/* <==================== Services link hover ====================> */
+
+.nav-services:hover {
+    color: #14b8a6;
+}
+
+/* <==================== Portfolio link hover ====================> */
+
+.nav-portfolio:hover {
+    color: #dc2626;
+}
+
+/* <==================== Contact link hover ====================> */
+
+.nav-contact:hover {
+    color: #4fa3ff;
+}
+
+
+/* <==================== Header Styles End ====================> */
+
+
+/* <==================== Hero Styles Start ====================> */
+
+.hero-section {
+    padding: 80px 0;
+}
+
+/* <==================== Hero two column layout ====================> */
+
+.hero-container {
+    display: grid;
+    grid-template-columns: 1.1fr 0.9fr;
+    align-items: center;
+    gap: 48px;
+}
+
+/* <==================== Small role line ====================> */
+
+.small-title {
+    color: #14b8a6;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+}
+
+/* <==================== Large hero name ====================> */
+
+.hero-content h1 {
+    color: #ffffff;
+    font-size: 72px;
+    line-height: 1.05;
+    margin-bottom: 14px;
+}
+
+/* <==================== Hero subtitle ====================> */
+
+.hero-content h2 {
+    color: #4fa3ff;
+    font-size: 36px;
+    line-height: 1.2;
+    margin-bottom: 18px;
+}
+
+/* <==================== Section title colors ====================> */
+
+.skills-title,
+.contact-title {
+    color: #14b8a6;
+}
+
+/* <==================== Services title color ====================> */
+
+.services-title {
+    color: #4fa3ff;
+}
+
+/* <==================== Hero paragraph ====================> */
+
+.hero-text {
+    max-width: 590px;
+    color: #cfd3dc;
+    font-size: 18px;
+    margin-bottom: 28px;
+}
+
+/* <==================== Button row ====================> */
+
+.button-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+
+/* <==================== Hero Styles End ====================> */
+
+
+/* <==================== Button Styles Start ====================> */
+
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    border-radius: 999px;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid transparent;
+    transition: 0.3s ease;
+    box-shadow: none;
+}
+
+/* <==================== Primary button ====================> */
+
+.btn-primary {
+    color: #07111f;
+    background: #f3f4f6;
+    border-color: #f3f4f6;
+}
+
+/* <==================== Primary button hover ====================> */
+
+.btn-primary:hover {
+    color: #07111f;
+    background: #e5e7eb;
+    border-color: #e5e7eb;
+}
+
+/* <==================== Dark outline button ====================> */
+
+.btn-outline {
+    color: #f3f4f6;
+    background: transparent;
+    border-color: #f3f4f6;
+}
+
+/* <==================== Dark outline button hover ====================> */
+
+.btn-outline:hover {
+    color: #07111f;
+    background: #f3f4f6;
+    border-color: #f3f4f6;
+}
+
+/* <==================== Blue button ====================> */
+
+.btn-blue {
+    color: #07111f;
+    background: #4fa3ff;
+    border-color: #4fa3ff;
+}
+
+/* <==================== Blue button hover ====================> */
+
+.btn-blue:hover {
+    color: #07111f;
+    background: #3b82f6;
+    border-color: #3b82f6;
+}
+
+/* <==================== Red button ====================> */
+
+.btn-red {
+    color: #ffffff;
+    background: #dc2626;
+    border-color: #dc2626;
+}
+
+/* <==================== Red button hover ====================> */
+
+.btn-red:hover {
+    color: #ffffff;
+    background: #b91c1c;
+    border-color: #b91c1c;
+}
+
+/* <==================== Teal button for LIC actions ====================> */
+
+.btn-teal {
+    color: #ffffff;
+    background: #0f766e;
+    border-color: #0f766e;
+}
+
+/* <==================== Teal button hover ====================> */
+
+.btn-teal:hover {
+    color: #ffffff;
+    background: #115e59;
+    border-color: #115e59;
+}
+
+/* <==================== Disabled button for projects that are not ready yet ====================> */
+
+.btn-disabled {
+    color: #cfd3dc;
+    background: #2b3448;
+    border-color: #2b3448;
+    cursor: not-allowed;
+    box-shadow: none;
+}
+
+/* <==================== Simple button hover movement ====================> */
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: none;
+}
+
+/* <==================== Disabled button should not move on hover ====================> */
+
+.btn-disabled:hover {
+    color: #cfd3dc;
+    background: #2b3448;
+    border-color: #2b3448;
+    transform: none;
+    box-shadow: none;
+}
+
+
+/* <==================== Button Styles End ====================> */
+
+/* <==================== Profile Card Styles Start ====================> */
+
+.profile-card {
+    width: 100%;
+    max-width: 430px;
+    justify-self: center;
+    padding: 34px;
+    text-align: center;
+    background: #121a2b;
+    border: 1px solid #2b3448;
+    border-radius: 24px;
+    box-shadow: 0 20px 45px rgba(0, 0, 0, 0.28);
+}
+
+/* <==================== Large RT circle ====================> */
+
+.profile-logo {
+    width: 210px;
+    height: 210px;
+    margin: 0 auto 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 64px;
+    font-weight: 900;
+    border-radius: 50%;
+    background: linear-gradient(180deg, #d79a2b, #4fa3ff);
+}
+
+/* <==================== Profile pill row ====================> */
+
+.pill-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+/* <==================== Small profile pill buttons ====================> */
+
+.skill-pill {
+    min-width: 66px;
+    padding: 9px 14px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 800;
+    border-radius: 999px;
+}
+
+/* <==================== WD pill ====================> */
+
+.web-pill {
+    color: #07111f;
+    background: #4fa3ff;
+}
+
+/* <==================== TR pill ====================> */
+
+.trading-pill {
+    background: #dc2626;
+}
+
+/* <==================== LIC pill ====================> */
+
+.lic-pill {
+    color: #ffffff;
+    background: #0f766e;
+}
+
+/* <==================== Divider line inside profile card ====================> */
+
+.card-divider {
+    height: 1px;
+    margin: 26px 0;
+    background: #2b3448;
+}
+
+/* <==================== Profile details ====================> */
+
+.profile-info p {
+    color: #cfd3dc;
+    margin-bottom: 10px;
+}
+
+/* <==================== Profile detail labels ====================> */
+
+.profile-label {
+    color: #9ca3af;
+}
+
+/* <==================== Profile detail values ====================> */
+
+.profile-value {
+    color: #ffffff;
+}
+
+/* <==================== Profile Card Styles End ====================> */
+
+/* <==================== Section Styles Start ====================> */
+
+.page-section {
+    padding: 80px 0;
+}
+
+/* <==================== Alternate section background ====================> */
+
+.section-shade {
+    background: #0b1424;
+}
+
+/* <==================== Section headings ====================> */
+
+.section-heading {
+    color: #ffffff;
+    font-size: 42px;
+    line-height: 1.2;
+    margin-bottom: 18px;
+}
+
+/* <==================== Intro paragraph ====================> */
+
+.section-intro {
+    max-width: 780px;
+    color: #cfd3dc;
+    font-size: 17px;
+    margin-bottom: 34px;
+}
+
+/* <==================== Grid for cards ====================> */
+
+.card-grid {
+    display: grid;
+    gap: 22px;
+}
+
+/* <==================== Three columns on desktop ====================> */
+
+.three-column-grid {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+/* <==================== Shared card design ====================> */
+
+.info-card,
+.service-card,
+.project-card,
+.skill-card {
+    padding: 26px;
+    background: #121a2b;
+    border: 1px solid #2b3448;
+    border-radius: 18px;
+    box-shadow: 0 14px 30px rgba(0, 0, 0, 0.20);
+    transition: 0.3s ease;
+}
+
+/* <==================== Cards with buttons ====================> */
+
+.service-card,
+.project-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    min-height: 220px;
+}
+
+/* <==================== Simple card hover ====================> */
+
+.info-card:hover,
+.service-card:hover,
+.project-card:hover,
+.skill-card:hover {
+    transform: translateY(-4px);
+    border-color: #4fa3ff;
+}
+
+/* <==================== Card headings ====================> */
+
+.info-card h3,
+.service-card h3,
+.project-card h3 {
+    color: #f3f4f6;
+    font-size: 22px;
+    line-height: 1.25;
+    margin-bottom: 12px;
+}
+
+/* <==================== Card paragraph text ====================> */
+
+.info-card p,
+.service-card p,
+.project-card p {
+    color: #cfd3dc;
+}
+
+/* <==================== Add clear space below portfolio card text ====================> */
+
+.project-card p:not(.project-label) {
+    margin-bottom: 20px;
+}
+
+/* <==================== Project preview box ====================> */
+
+.project-preview {
+    width: 100%;
+    height: 160px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #cfd3dc;
+    background: #07111f;
+    border: 1px solid #2b3448;
+    border-radius: 16px;
+}
+
+/* <==================== Project preview text ====================> */
+
+.project-preview span {
+    padding: 0 14px;
+    color: #9ca3af;
+    font-weight: 700;
+}
+
+/* <==================== Small portfolio label ====================> */
+
+.project-label {
+    color: #14b8a6;
+    font-size: 13px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+/* <==================== Learning category color ====================> */
+
+.category-learning {
+    color: #4fa3ff;
+}
+
+/* <==================== Trading category color ====================> */
+
+.category-trading {
+    color: #dc2626;
+}
+
+/* <==================== New project category color ====================> */
+
+.category-new {
+    color: #14b8a6;
+}
+
+/* <==================== Button inside cards ====================> */
+
+.card-button {
+    margin-top: auto;
+}
+
+/* <==================== Keep portfolio buttons spaced and aligned near the bottom ====================> */
+
+.project-card .btn,
+.project-card .btn-disabled {
+    margin-top: auto;
+}
+
+
+/* <==================== Skills Styles Start ====================> */
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 18px;
+}
+
+/* <==================== Skill card text ====================> */
+
+.skill-card {
+    color: #f3f4f6;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+/* <==================== Skills Styles End ====================> */
+
+/* <==================== Section Styles End ====================> */
+
+
+/* <==================== Contact Styles Start ====================> */
+
+/* <==================== Center only the contact section heading ====================> */
+
+#contact .section-heading {
+    text-align: center;
+}
+
+/* <==================== Centered contact text ====================> */
+
+.contact-intro {
+    max-width: 720px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* <==================== Contact paragraph text ====================> */
+
+.contact-intro p {
+    color: #cfd3dc;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+/* <==================== Contact email link ====================> */
+
+.contact-intro a {
+    color: #4fa3ff;
+    font-weight: 700;
+}
+
+/* <==================== Contact form card ====================> */
+
+.contact-form {
+    max-width: 720px;
+    margin: 30px auto 0;
+    padding: 32px;
+    background: #111827;
+    border: 1px solid #2b3448;
+    border-radius: 22px;
+    box-shadow: 0 18px 45px rgba(0, 0, 0, 0.25);
+}
+
+/* <==================== Form label text ====================> */
+
+.contact-form label {
+    display: block;
+    color: #ffffff;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+/* <==================== Form fields ====================> */
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    margin-bottom: 18px;
+    padding: 14px 16px;
+    color: #ffffff;
+    background: #07111f;
+    border: 1px solid #2b3448;
+    border-radius: 12px;
+    font-size: 15px;
+    font-family: inherit;
+    outline: none;
+    transition: 0.3s ease;
+}
+
+/* <==================== Placeholder text ====================> */
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+    color: #cfd3dc;
+}
+
+/* <==================== Field focus style ====================> */
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #4fa3ff;
+    box-shadow: 0 0 0 3px rgba(79, 163, 255, 0.15);
+}
+
+/* <==================== Message box height ====================> */
+
+.contact-form textarea {
+    min-height: 140px;
+    resize: vertical;
+}
+
+/* <==================== Submit button ====================> */
+
+.form-button,
+.contact-submit {
+    min-width: 190px;
+}
+
+/* <==================== Contact action buttons ====================> */
+
+.contact-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    margin-top: 4px;
+}
+
+/* <==================== Form note ====================> */
+
+.form-note {
+    color: #cfd3dc;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 14px;
+}
+
+/* <==================== Form note email link ====================> */
+
+.form-note a {
+    color: #4fa3ff;
+    font-weight: 700;
+}
+
+
+/* <==================== Contact Styles End ====================> */
+
+
+/* <==================== Footer Styles Start ====================> */
+
+.site-footer {
+    padding: 40px 0 24px;
+    background: #07111f;
+    border-top: 1px solid #2b3448;
+    text-align: center;
+}
+
+/* <==================== Footer layout ====================> */
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+/* <==================== Footer logo ====================> */
+
+.footer-logo {
+    color: #ffffff;
+    font-size: 34px;
+    font-weight: 900;
+}
+
+/* <==================== Footer role line ====================> */
+
+.footer-role {
+    color: #14b8a6;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+/* <==================== Footer links ====================> */
+
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* <==================== Footer link text ====================> */
+
+.footer-links a {
+    color: #cfd3dc;
+    transition: 0.3s ease;
+}
+
+/* <==================== Footer link hover ====================> */
+
+.footer-links a:hover {
+    color: #4fa3ff;
+}
+
+/* <==================== Footer copyright ====================> */
+
+.footer-copy {
+    color: #cfd3dc;
+    font-size: 14px;
+}
+
+
+/* <==================== Footer Styles End ====================> */
+
+
+/* <==================== Responsive Styles Start ====================> */
+
+@media (max-width: 1024px) {
+
+    /* <==================== Make hero gap smaller on small laptops ====================> */
+
+    .hero-container {
+        gap: 34px;
+    }
+
+    /* <==================== Reduce hero name size ====================> */
+
+    .hero-content h1 {
+        font-size: 60px;
+    }
+
+    /* <==================== Reduce hero subtitle size ====================> */
+
+    .hero-content h2 {
+        font-size: 32px;
+    }
+}
+
+/* <==================== Tablet responsive styles ====================> */
+
+@media (max-width: 768px) {
+
+    /* <==================== Reduce section spacing on tablet ====================> */
+
+    .page-section,
+    .hero-section {
+        padding: 64px 0;
+    }
+
+    /* <==================== Stack hero columns on tablet ====================> */
+
+    .hero-container {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    /* <==================== Center hero paragraph ====================> */
+
+    .hero-text {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* <==================== Center hero buttons ====================> */
+
+    .button-group {
+        justify-content: center;
+    }
+
+    /* <==================== Profile card fits tablet and mobile ====================> */
+
+    .profile-card {
+        max-width: 360px;
+    }
+
+    /* <==================== Two card columns on tablet ====================> */
+
+    .three-column-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* <==================== Skill cards use two columns on tablet ====================> */
+
+    .skills-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* <==================== Mobile responsive styles ====================> */
+
+@media (max-width: 480px) {
+
+    /* <==================== Stack navbar on mobile ====================> */
+
+    .navbar {
+        padding: 16px 0;
+        flex-direction: column;
+        align-items: center;
+        gap: 14px;
+    }
+
+    /* <==================== Center and wrap navbar links ====================> */
+
+    .nav-links {
+        justify-content: center;
+        gap: 10px 14px;
+    }
+
+    /* <==================== Make navbar links smaller ====================> */
+
+    .nav-links a {
+        font-size: 14px;
+    }
+
+    /* <==================== Mobile section spacing ====================> */
+
+    .page-section,
+    .hero-section {
+        padding: 48px 0;
+    }
+
+    /* <==================== Smaller role line ====================> */
+
+    .small-title {
+        font-size: 12px;
+    }
+
+    /* <==================== Smaller hero title ====================> */
+
+    .hero-content h1 {
+        font-size: 42px;
+    }
+
+    /* <==================== Smaller hero subtitle ====================> */
+
+    .hero-content h2 {
+        font-size: 25px;
+    }
+
+    /* <==================== Smaller paragraph text ====================> */
+
+    .hero-text,
+    .section-intro,
+    .contact-intro p {
+        font-size: 16px;
+    }
+
+    /* <==================== One card column on mobile ====================> */
+
+    .three-column-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* <==================== Skill cards use one column on mobile ====================> */
+
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* <==================== Smaller section heading ====================> */
+
+    .section-heading {
+        font-size: 32px;
+    }
+
+    /* <==================== Make profile card fit mobile ====================> */
+
+    .profile-card {
+        width: 100%;
+        max-width: 360px;
+        padding: 24px;
+    }
+
+    /* <==================== Smaller RT circle on mobile ====================> */
+
+    .profile-logo {
+        width: 170px;
+        height: 170px;
+        font-size: 52px;
+    }
+
+    /* <==================== Buttons fill small screens ====================> */
+
+    .btn {
+        width: 100%;
+    }
+
+    /* <==================== Smaller form spacing ====================> */
+
+    .contact-form {
+        padding: 22px;
+    }
+
+    /* <==================== Submit button fills the form on mobile ====================> */
+
+    .form-button,
+    .contact-submit {
+        width: 100%;
+    }
+
+    /* <==================== Contact action buttons stack on mobile ====================> */
+
+    .contact-actions {
+        flex-direction: column;
+    }
+}
+
+/* <==================== Very small mobile styles ====================> */
+
+@media (max-width: 360px) {
+
+    /* <==================== Use a little more screen width on very small screens ====================> */
+
+    .section-container,
+    .navbar {
+        width: 92%;
+    }
+
+    /* <==================== Make hero title fit 320px screens ====================> */
+
+    .hero-content h1 {
+        font-size: 36px;
+    }
+
+    /* <==================== Make hero subtitle fit 320px screens ====================> */
+
+    .hero-content h2 {
+        font-size: 22px;
+    }
+
+    /* <==================== Reduce card padding on tiny screens ====================> */
+
+    .info-card,
+    .service-card,
+    .project-card,
+    .contact-form,
+    .profile-card {
+        padding: 20px;
+    }
+
+    /* <==================== Smaller profile circle on tiny screens ====================> */
+
+    .profile-logo {
+        width: 150px;
+        height: 150px;
+        font-size: 46px;
+    }
+
+    /* <==================== Footer links use smaller gap ====================> */
+
+    .footer-links {
+        gap: 12px;
+    }
+}
+
+
+/* <==================== Responsive Styles End ====================> */
+
+
+/* <==================== Light Mode Styles Start ====================> */
+
+@media (prefers-color-scheme: light) {
+
+    /* <==================== Light body background ====================> */
+
+    body {
+        color: #111827;
+        background: #f5f7fb;
+    }
+
+    /* <==================== Light navbar ====================> */
+
+    .site-header {
+        background: #ffffff;
+        border-bottom-color: #d8dee9;
+    }
+
+    /* <==================== Light logo ====================> */
+
+    .logo,
+    .footer-logo {
+        color: #111827;
+    }
+
+    /* <==================== Light navbar links ====================> */
+
+    .nav-link {
+        color: #4b5563;
+    }
+
+    /* <==================== Light home link color ====================> */
+
+    .nav-home {
+        color: #111827;
+    }
+
+    /* <==================== Light about link hover ====================> */
+
+    .nav-about:hover {
+        color: #2563eb;
+    }
+
+    /* <==================== Light skills link hover ====================> */
+
+    .nav-skills:hover {
+        color: #0f766e;
+    }
+
+    /* <==================== Light services link hover ====================> */
+
+    .nav-services:hover {
+        color: #0f766e;
+    }
+
+    /* <==================== Light portfolio link hover ====================> */
+
+    .nav-portfolio:hover {
+        color: #dc2626;
+    }
+
+    /* <==================== Light contact link hover ====================> */
+
+    .nav-contact:hover {
+        color: #2563eb;
+    }
+
+    /* <==================== Light section background ====================> */
+
+    .section-shade {
+        background: #ffffff;
+    }
+
+    /* <==================== Light headings ====================> */
+
+    .hero-content h1,
+    .section-heading,
+    .info-card h3,
+    .service-card h3,
+    .project-card h3,
+    .contact-form label,
+    .profile-value,
+    .skill-card {
+        color: #111827;
+    }
+
+    /* <==================== Light role and labels ====================> */
+
+    .small-title,
+    .project-label,
+    .footer-role {
+        color: #0f766e;
+    }
+
+    /* <==================== Light blue subtitle ====================> */
+
+    .hero-content h2,
+    .contact-intro a {
+        color: #2563eb;
+    }
+
+    /* <==================== Light section title colors ====================> */
+
+    .skills-title,
+    .contact-title,
+    .category-new {
+        color: #0f766e;
+    }
+
+    /* <==================== Light services title color ====================> */
+
+    .services-title,
+    .category-learning {
+        color: #2563eb;
+    }
+
+    /* <==================== Light trading category color ====================> */
+
+    .category-trading {
+        color: #dc2626;
+    }
+
+    /* <==================== Light paragraph text ====================> */
+
+    .hero-text,
+    .section-intro,
+    .info-card p,
+    .service-card p,
+    .project-card p,
+    .contact-intro p,
+    .profile-info p,
+    .profile-label,
+    .form-note,
+    .footer-copy {
+        color: #4b5563;
+    }
+
+    /* <==================== Light cards ====================> */
+
+    .profile-card,
+    .info-card,
+    .service-card,
+    .project-card,
+    .skill-card,
+    .contact-form {
+        background: #ffffff;
+        border-color: #d8dee9;
+        box-shadow: 0 14px 28px rgba(17, 24, 39, 0.08);
+    }
+
+    /* <==================== Light profile circle ====================> */
+
+    .profile-logo {
+        color: #ffffff;
+        background: linear-gradient(180deg, #d79a2b, #7dbdff);
+    }
+
+    /* <==================== Light project preview box ====================> */
+
+    .project-preview {
+        color: #4b5563;
+        background: #f5f7fb;
+        border-color: #d8dee9;
+    }
+
+    /* <==================== Light project preview text ====================> */
+
+    .project-preview span {
+        color: #6b7280;
+    }
+
+    /* <==================== Light divider ====================> */
+
+    .card-divider {
+        background: #d8dee9;
+    }
+
+    /* <==================== Light primary button ====================> */
+
+    .btn-primary {
+        color: #ffffff;
+        background: #111827;
+        border-color: #111827;
+    }
+
+    /* <==================== Light primary hover ====================> */
+
+    .btn-primary:hover {
+        color: #ffffff;
+        background: #1f2937;
+        border-color: #1f2937;
+    }
+
+    /* <==================== Light outline button ====================> */
+
+    .btn-outline {
+        color: #111827;
+        background: transparent;
+        border-color: #111827;
+    }
+
+    /* <==================== Light outline hover ====================> */
+
+    .btn-outline:hover {
+        color: #ffffff;
+        background: #111827;
+        border-color: #111827;
+    }
+
+    /* <==================== Light blue button ====================> */
+
+    .btn-blue,
+    .web-pill {
+        color: #ffffff;
+        background: #2563eb;
+        border-color: #2563eb;
+    }
+
+    /* <==================== Light blue button hover ====================> */
+
+    .btn-blue:hover {
+        color: #ffffff;
+        background: #1d4ed8;
+        border-color: #1d4ed8;
+    }
+
+    /* <==================== Light red button ====================> */
+
+    .btn-red,
+    .trading-pill {
+        color: #ffffff;
+        background: #dc2626;
+        border-color: #dc2626;
+    }
+
+    /* <==================== Light red button hover ====================> */
+
+    .btn-red:hover {
+        color: #ffffff;
+        background: #b91c1c;
+        border-color: #b91c1c;
+    }
+
+    /* <==================== Light teal button ====================> */
+
+    .btn-teal,
+    .lic-pill {
+        color: #ffffff;
+        background: #0f766e;
+        border-color: #0f766e;
+    }
+
+    /* <==================== Light teal button hover ====================> */
+
+    .btn-teal:hover {
+        color: #ffffff;
+        background: #115e59;
+        border-color: #115e59;
+    }
+
+    /* <==================== Light disabled button ====================> */
+
+    .btn-disabled {
+        color: #6b7280;
+        background: #e5e7eb;
+        border-color: #d1d5db;
+    }
+
+    /* <==================== Light disabled button hover ====================> */
+
+    .btn-disabled:hover {
+        color: #6b7280;
+        background: #e5e7eb;
+        border-color: #d1d5db;
+        transform: none;
+        box-shadow: none;
+    }
+
+    /* <==================== Light form fields ====================> */
+
+    .contact-form input,
+    .contact-form textarea {
+        color: #111827;
+        background: #f9fafb;
+        border-color: #d8dee9;
+    }
+
+    /* <==================== Light placeholder text ====================> */
+
+    .contact-form input::placeholder,
+    .contact-form textarea::placeholder {
+        color: #4b5563;
+    }
+
+    /* <==================== Light form focus ====================> */
+
+    .contact-form input:focus,
+    .contact-form textarea:focus {
+        border-color: #2563eb;
+        box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+    }
+
+    /* <==================== Light form note email link ====================> */
+
+    .form-note a {
+        color: #2563eb;
+    }
+
+    /* <==================== Light footer ====================> */
+
+    .site-footer {
+        background: #ffffff;
+        border-top-color: #d8dee9;
+    }
+
+    /* <==================== Light footer links ====================> */
+
+    .footer-links a {
+        color: #4b5563;
+    }
+
+    /* <==================== Light footer link hover ====================> */
+
+    .footer-links a:hover {
+        color: #2563eb;
+    }
+}
+
+
+/* <==================== Light Mode Styles End ====================> */
+
