@@ -1572,35 +1572,77 @@ p {
 
 /* <==================== Global Spacing Fix End ====================> */
 
-/* <==================== Portfolio Four Card Layout Start ====================> */
-/* These rules only control the Portfolio project cards. */
+/* <==================== Portfolio Two Column Layout Start ====================> */
+/* These rules only improve the Portfolio project cards. */
 
 .portfolio-grid {
     display: grid;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-    gap: 24px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 28px;
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.portfolio-grid .project-card {
+    display: flex;
+    flex-direction: column;
+    padding: 28px;
+    min-height: auto;
+}
+
+.portfolio-grid .project-card:hover {
+    border-color: #2b3448;
+}
+
+.portfolio-grid .project-preview {
+    height: 120px;
+    margin-bottom: 22px;
+    border-radius: 14px;
+}
+
+.portfolio-grid .project-preview span {
+    color: #9ca3af;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.portfolio-grid .project-label,
+.portfolio-grid .project-category {
+    margin-bottom: 10px;
+}
+
+.portfolio-grid .project-card h3 {
+    margin-bottom: 12px;
+}
+
+.portfolio-grid .project-card p {
+    margin-bottom: 24px;
+    line-height: 1.7;
+}
+
+.portfolio-grid .project-card .btn,
+.portfolio-grid .project-card .btn-disabled {
+    margin-top: auto;
 }
 
 .category-tool {
     color: #14b8a6;
 }
 
-@media (max-width: 1024px) {
-    .portfolio-grid {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-}
-
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     .portfolio-grid {
         grid-template-columns: 1fr;
     }
 }
 
 @media (prefers-color-scheme: light) {
+    .portfolio-grid .project-card:hover {
+        border-color: #d8dee9;
+    }
+
     .category-tool {
         color: #0f766e;
     }
 }
 
-/* <==================== Portfolio Four Card Layout End ====================> */
+/* <==================== Portfolio Two Column Layout End ====================> */
